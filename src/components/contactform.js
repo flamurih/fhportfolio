@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import setUser from './users';
 
 export default function ContactForm() {
   return (

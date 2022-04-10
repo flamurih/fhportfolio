@@ -1,5 +1,6 @@
 import React from 'react';
 import me from '../assets/img/me.jpg';
+import Image from './image.js';
 
 export default function About() {
   return (
@@ -22,7 +23,11 @@ export default function About() {
                 I felt very happy when I got the first place in the hackathon "Frankofonia dhe Inovacioni digjital" First place, and this encouraged me to continue working hard.
               </p>
             </div>
-            <img src={me} className="me" alt='FlamurHoxha'></img>
+            <Image 
+              src={me}
+              alt="Flamur Hoxha"
+              className="me"
+             />
           </div>
         </div>
       </div>

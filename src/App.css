@@ -381,5 +381,21 @@ body{
   .m{
     height: 300px;
   }
+  .usr{
+    display: flex;
+  }
+  .usr .users{
+    padding: 20px;
+    margin:10px 0 0 20px;
+    width: 300px;
+  }
+  .users {
+    list-style-type:none;
+  }
+  .users li{
+    font-size: 28px;
+    padding: 20px 0 ;
+    border-bottom: 1px solid black;
+  }
 }
 
